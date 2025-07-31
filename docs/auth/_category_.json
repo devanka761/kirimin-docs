@@ -1,0 +1,9 @@
+{
+  "label": "HTTP - Authentication",
+  "position": 2,
+  "link": {
+    "slug": "/auth",
+    "type": "generated-index",
+    "description": "Konsep Authentication pada Kirimin"
+  }
+}
