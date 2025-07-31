@@ -1,18 +1,19 @@
 ---
 sidebar_position: 1
+sidebar_label: User Status
 ---
 
-# Cek User Login
+# Cek Status User
 
 Pastikan apakah user telah login sebelum melakukan pembuatan permintaan login dengan fetch/http request.
 
-## Request - Is User
-
-Di aplikasi yang sedang kamu kerjakan, kirimkan request ke endpoint berikut
-
-```shell
+```shell title='Endpoint'
 GET /x/auth/isUser
 ```
+
+## Request - JSON
+
+Di aplikasi yang sedang kamu kerjakan, kirimkan request untuk mengecek status user
 
 Contoh dengan fetch pada `JavaScript`.
 
@@ -26,22 +27,13 @@ const isUser = await fetch(url, {
     Accept: "application/json",
   },
 });
+console.log(isUser);
 ```
 
-## Response - Too Many Request (413)
+## Response - Failed - Not Logged In
 
-Jika mendapat error code `413`, harap ulangi request setelah beberapa detik. Ini disebabkan karena server mendapat request yang sama berulang kali dengan tempo cepat.
-
-```json
-{
-  "ok": false,
-  "code": 413
-}
-```
-
-## Response - User belum logged in
-
-Jika user belum login, maka akan mendapat response seperti ini: (angka `code` adalah `401` atau akan di atas `400`).
+Jika mendapat response `code` di angka `413`, harap ulangi request setelah beberapa detik.
+Jika mendapat response `code` di atas `400`, maka user belum login.
 
 ```json
 {
@@ -50,11 +42,11 @@ Jika user belum login, maka akan mendapat response seperti ini: (angka `code` ad
 }
 ```
 
-Dengan user yang belum login tersebut, inilah saatnya kamu mengarahkan user untuk melakukan login terlebih dahulu. Lihat [User Sign-in](/auth/sign-in)
+Dengan user yang belum login tersebut, inilah saatnya kamu mengarahkan user untuk melakukan login terlebih dahulu. Lihat [User Sign-in](/auth/sign-in).
 
-## Response - User sudah login
+## Response - Success - Logged In
 
-Apabila user telah login, maka akan mendapat response code `200` beserta dengan data user tersebut. Contoh:
+Apabila user telah login, maka akan mendapat response code `200` beserta dengan data user tersebut. Untuk me-logout user, cek [User Logout](/auth/logout).
 
 ```json
 {

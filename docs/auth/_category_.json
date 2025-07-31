@@ -1,5 +1,5 @@
 {
-  "label": "HTTP - Authentication",
+  "label": "Authentication - http(s)",
   "position": 2,
   "link": {
     "slug": "/auth",

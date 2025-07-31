@@ -1,0 +1,9 @@
+{
+  "label": "Dengan Email",
+  "position": 1,
+  "link": {
+    "slug": "/auth/sign-in/email",
+    "type": "generated-index",
+    "description": "Terdapat 2 langkah untuk login dengan email"
+  }
+}

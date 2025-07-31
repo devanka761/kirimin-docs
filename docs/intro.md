@@ -25,6 +25,6 @@ Request yang dikirim wajib berupa `"application/json"` dan juga menerima respons
 
 ## Langkah Selanjutnya
 
-- Persiapan **[Manipulasi Autentikasi](/auth)**
+- **[Mempersiapkan Akun](/auth)** Pengguna dan Calon Pengguna
 
 Baca Lainnya: [Koneksi WebSocket](/websocket), [Peer 2 Peer](/peer).
