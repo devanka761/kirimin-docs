@@ -34,7 +34,7 @@ const config: Config = {
         docs: {
           routeBasePath: "/",
           sidebarPath: "./sidebars.ts",
-          editUrl: "https://github.com/devanka761/kirimin-docs",
+          editUrl: "https://github.com/devanka761/kirimin-docs/tree/main",
         },
         blog: false,
         theme: {
@@ -45,7 +45,10 @@ const config: Config = {
   ],
 
   themeConfig: {
-    image: "img/docusaurus-social-card.jpg",
+    colorMode: {
+      defaultMode: "dark",
+    },
+    image: "img/kirimin_icon.png",
     navbar: {
       title: "Kirimin Docs",
       logo: {
@@ -118,7 +121,7 @@ const config: Config = {
     },
     prism: {
       theme: prismThemes.github,
-      darkTheme: prismThemes.dracula,
+      darkTheme: prismThemes.palenight,
     },
   } satisfies Preset.ThemeConfig,
 };
