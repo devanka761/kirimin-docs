@@ -48,5 +48,5 @@ Selanjutnya [tangani verifikasi kode OTP](/auth/sign-in/email/verify).
 
 ## Response - Failed
 
-Jika mendapat response `code` di angka `413`, harap ulangi request setelah beberapa detik.
+Jika mendapat response `code` di angka `429`, harap ulangi request setelah beberapa detik.
 Jika mendapat response `code` di atas `400`, harap cek endpoint dan data yang dikirimkan.

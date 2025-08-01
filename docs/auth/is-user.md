@@ -32,7 +32,7 @@ console.log(isUser);
 
 ## Response - Failed - Not Logged In
 
-Jika mendapat response `code` di angka `413`, harap ulangi request setelah beberapa detik.
+Jika mendapat response `code` di angka `429`, harap ulangi request setelah beberapa detik.
 Jika mendapat response `code` di atas `400`, maka user belum login.
 
 ```json
