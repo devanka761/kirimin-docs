@@ -1,0 +1,9 @@
+{
+  "label": "Profil User - http(s)",
+  "position": 4,
+  "link": {
+    "slug": "/profile",
+    "type": "generated-index",
+    "description": "Konsep Profil Pengguna pada Kirimin"
+  }
+}
