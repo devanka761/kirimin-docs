@@ -7,25 +7,18 @@ sidebar_label: Dengan GitHub
 
 :::danger EKSPERIMEN
 
-Fitur ini tidak stabil dan masih dalam tahap pengembangan pada aplikasi mobile & desktop
+Fitur ini tidak stabil dan masih dalam tahap pengembangan
 
 :::
 
 Buat user untuk menuju halaman GitHub Login **Kirimin** dengan membuka browser external ataupun browser dari dalam aplikasi. Berikan query tambahan `next` yang berisi url ke aplikasi/website kamu.
 
-```text title='HTTPS - Redirect/Open'
+```text title='HTTPS - Redirect/Open/Popup'
 /x/auth/github?next=yoururl
 ```
 
 Contoh:
 
 ```shell
-# mobile
-https://kirimin.devanka.id/x/auth/github?yourapp://checkUser?user=recheck
-
-# desktop
-https://kirimin.devanka.id/x/auth/github?yourapp://recheck$attemp
-
-# website
-https://kirimin.devanka.id/x/auth/github?https://yourapp.com/checkUser?user=recheck
+https://kirimin.devanka.id/x/auth/github?next=https://yourapp.com/app
 ```

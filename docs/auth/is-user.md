@@ -11,6 +11,10 @@ Pastikan apakah user telah login sebelum melakukan pembuatan permintaan login de
 GET /x/auth/isUser
 ```
 
+:::tip
+Info lanjutan tentang bagaimana HTTP(S) Request bekerja pada Kirimin dapat ditemukan pada **[halaman http transport](/transports/xhr)**.
+:::
+
 ## Request - JSON
 
 Di aplikasi yang sedang kamu kerjakan, kirimkan request untuk mengecek status user
@@ -120,7 +124,7 @@ Apabila user telah login, maka akan mendapat response `ok: true` beserta dengan 
 }
 ```
 
-Setelah dapetin data user tersebut, arahkan user ke dalam aplikasi.
+Setelah dapetin data user tersebut, arahkan user ke dalam aplikasi. Pastikan untuk langsung membuat koneksi `WebSocket` terlebih dahulu. Baca di [Koneksi WebSocket](/transports/websocket).
 
 **Catatan:**
 

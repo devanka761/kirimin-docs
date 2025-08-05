@@ -48,6 +48,10 @@ Saat berhasil, akan mendapat response `code: 200`.
 
 ### Sinyal WebSocket
 
+:::tip
+Pastikan kamu sudah mengatur konfigurasi websocket. Baca **[Terkoneksi Dengan WebSocket](/transports/websocket)**.
+:::
+
 Setelah tidak ada masalah saat meresponse member yang dikeluarkan dari grup, server akan mengirimkan sinyal `WebSocket` kepada seluruh member grup tentang member yang baru saja dikeluarkan dari grup. Kemudian mengirimkan sinyal `WebSocket` tambahan kepada target member yang dikeluarkan tersebut.
 
 ```javascript title='Sinyal ke seluruh anggota grup'

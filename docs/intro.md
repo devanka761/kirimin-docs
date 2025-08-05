@@ -17,14 +17,17 @@ Kirimin menyediakan API ini untuk para developer yang ingin membangun atau expan
 
 Seluruh data yang akan diproses adalah **100% sinkron** dengan yang ada di webapp original ([https://kirimin.devanka.id](https://kirimin.devanka.id)).
 
-## Tentang API
+## Tentang API Kirimin
 
-Kirimin menggunakan REST API dan beberapa tranport untuk menyediakan layanan dinamis. Semua request dapat dikirimkan melalui XMLHttpRequest, fetch, atau sejenisnya.
+Kirimin menggunakan REST API dan beberapa transport untuk menyediakan layanan dinamis. Semua request dapat dikirimkan melalui XMLHttpRequest, fetch, atau sejenisnya.
 
 Request yang dikirim wajib berupa `"application/json"` dan juga menerima response berupa `"application/json"`.
 
 ## Langkah Selanjutnya
 
 - **[Mempersiapkan Akun](/auth)** Pengguna dan Calon Pengguna
-
-Baca Lainnya: [Koneksi WebSocket](/websocket), [Peer 2 Peer](/peer).
+- **[Memodifikasi Profil](/account)** Pengguna menjadi lebih oke
+- **[Mengatur Relasi](/profile)** Antar Pengguna
+- **[Menyatukan Minat Kelompok](/group)** Pengguna
+- **[Membagikan Ketertarikan](/posts)** Pengguna
+- **[Menyampaikan Hubungan](/room)** Antar Pengguna

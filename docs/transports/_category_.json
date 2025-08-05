@@ -1,0 +1,9 @@
+{
+  "label": "Transports",
+  "position": 3,
+  "link": {
+    "slug": "/transports",
+    "type": "generated-index",
+    "description": "Kirimin menggunakan 3 transport utama untuk bekerja dengan data."
+  }
+}

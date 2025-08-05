@@ -1,9 +1,9 @@
 {
   "label": "Grup",
-  "position": 5,
+  "position": 6,
   "link": {
     "slug": "/group",
     "type": "generated-index",
-    "description": "Konsep Grup pada Kirimin"
+    "description": "Manipulasi Grup tidak perlu cara yang merepotkan user"
   }
 }

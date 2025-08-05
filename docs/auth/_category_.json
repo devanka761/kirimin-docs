@@ -4,6 +4,6 @@
   "link": {
     "slug": "/auth",
     "type": "generated-index",
-    "description": "Konsep Authentication pada Kirimin"
+    "description": "Sebelum user masuk ke aplikasi, ada baiknya untuk membuat user terautentikasi terlebih dahulu."
   }
 }

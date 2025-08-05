@@ -1,0 +1,9 @@
+{
+  "label": "Perpesanan",
+  "position": 8,
+  "link": {
+    "slug": "/room",
+    "type": "generated-index",
+    "description": "Konsep Perpesanan pada Kirimin"
+  }
+}

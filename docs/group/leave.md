@@ -46,13 +46,28 @@ Saat berhasil, akan mendapat response `code: 200`.
 
 ### Sinyal WebSocket
 
+:::tip
+Pastikan kamu sudah mengatur konfigurasi websocket. Baca **[Terkoneksi Dengan WebSocket](/transports/websocket)**.
+:::
+
 Setelah tidak ada masalah saat meresponse member yang keluar dari grup, server akan mengirimkan sinyal `WebSocket` kepada seluruh member grup tentang member yang baru saja keluar dari grup.
 
-```javascript
+Terdapat 2 tipe sinyal, yaitu sinyal keluar sebagai member dan sinyal keluar sebagai owner grup. Saat keluar dari grup sebagai owner grup, maka grup akan dibubarkan dan semua anggota akan dikeluarkan tanpa terkecuali.
+
+```javascript title='Sebagai member biasa'
 {
   "key": "a1cea2ac677ae978b3b253ea60991d07", // string
   "from": "808080", // string - ID User yang keluar
   "type": "memberleave", // string
+  "groupid": "6228482" // string - ID Grup
+}
+```
+
+```javascript title='Sebagai owner grup'
+{
+  "key": "a1cea2ac677ae978b3b253ea60991d07", // string
+  "from": "808080", // string - ID User yang keluar
+  "type": "memberkick", // string
   "groupid": "6228482" // string - ID Grup
 }
 ```

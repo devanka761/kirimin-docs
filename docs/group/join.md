@@ -91,6 +91,10 @@ Saat berhasil, silakan render tampilan rincian grup atau room chat grup tersebut
 
 ### Sinyal WebSocket
 
+:::tip
+Pastikan kamu sudah mengatur konfigurasi websocket. Baca **[Terkoneksi Dengan WebSocket](/transports/websocket)**.
+:::
+
 Setelah tidak ada masalah saat meresponse member yang bergabung, server akan mengirimkan sinyal `WebSocket` kepada seluruh member grup tentang user baru yang tergabung sebagai member grup.
 
 ```javascript

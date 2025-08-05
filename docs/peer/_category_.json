@@ -1,9 +1,0 @@
-{
-  "label": "Peer to Peer",
-  "position": 14,
-  "link": {
-    "slug": "/peer",
-    "type": "generated-index",
-    "description": "Konsep Koneksi Peer to Peer pada Kirimin"
-  }
-}

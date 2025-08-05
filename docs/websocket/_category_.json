@@ -1,9 +1,0 @@
-{
-  "label": "WebSocket",
-  "position": 15,
-  "link": {
-    "slug": "/websocket",
-    "type": "generated-index",
-    "description": "Konsep Koneksi WebSocket pada Kirimin"
-  }
-}

@@ -1,0 +1,9 @@
+{
+  "label": "Postingan",
+  "position": 7,
+  "link": {
+    "slug": "/posts",
+    "type": "generated-index",
+    "description": "Postingan yang baik adalah postingan yang langsung menuju ke poin pentingnya"
+  }
+}

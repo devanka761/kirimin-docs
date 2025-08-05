@@ -1,0 +1,9 @@
+{
+  "label": "Komentar Postingan",
+  "position": 4,
+  "link": {
+    "slug": "/posts/comments",
+    "type": "generated-index",
+    "description": "Apresiasi paling sederhana pada sebuah postingan adalah dengan berkomentar"
+  }
+}

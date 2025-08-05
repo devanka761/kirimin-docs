@@ -1,9 +1,9 @@
 {
   "label": "Pengguna",
-  "position": 4,
+  "position": 5,
   "link": {
     "slug": "/profile",
     "type": "generated-index",
-    "description": "Konsep Profil Pengguna pada Kirimin"
+    "description": "Temukan user untuk saling terhubung dan menambah relasi"
   }
 }

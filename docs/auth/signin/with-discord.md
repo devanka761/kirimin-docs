@@ -7,25 +7,18 @@ sidebar_label: Dengan Discord
 
 :::danger EKSPERIMEN
 
-Fitur ini tidak stabil dan masih dalam tahap pengembangan pada aplikasi mobile & desktop
+Fitur ini tidak stabil dan masih dalam tahap pengembangan
 
 :::
 
 Buat user untuk menuju halaman Discord Login di **Kirimin** dengan membuka browser external ataupun browser dari dalam aplikasi. Berikan query tambahan `next` yang berisi url ke aplikasi/website kamu.
 
-```text title='HTTPS - Redirect/Open'
+```text title='HTTPS - Redirect/Open/Popup'
 /x/auth/discord?next=yoururl
 ```
 
 Contoh:
 
 ```shell
-# mobile
-https://kirimin.devanka.id/x/auth/discord?yourapp://checkUser?user=recheck
-
-# desktop
-https://kirimin.devanka.id/x/auth/discord?yourapp://recheck$attemp
-
-# website
-https://kirimin.devanka.id/x/auth/discord?https://yourapp.com/checkUser?user=recheck
+https://kirimin.devanka.id/x/auth/discord?next=https://yourapp.com/app
 ```
