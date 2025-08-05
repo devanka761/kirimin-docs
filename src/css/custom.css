@@ -1,0 +1,52 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+:root {
+  scrollbar-width: thin;
+  --ifm-color-primary: #2e8555;
+  --ifm-color-primary-dark: #29784c;
+  --ifm-color-primary-darker: #277148;
+  --ifm-color-primary-darkest: #205d3b;
+  --ifm-color-primary-light: #33925d;
+  --ifm-color-primary-lighter: #359962;
+  --ifm-color-primary-lightest: #3cad6e;
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme="dark"] {
+  scrollbar-color: #5865f1 #0f1621;
+  scrollbar-width: thin;
+  --ifm-color-primary: #a395e8;
+  --ifm-color-primary-dark: #a395e8;
+  --ifm-color-primary-darker: #a395e8;
+  --ifm-color-primary-darkest: #a395e8;
+  --ifm-color-primary-light: #a395e8;
+  --ifm-color-primary-lighter: #a395e8;
+  --ifm-color-primary-lightest: #a395e8;
+  --ifm-background-surface-color: #0f1621;
+  --ifm-background-color: #0b111d;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    scrollbar-color: #5865f1 #0f1621;
+    scrollbar-width: thin;
+    --ifm-color-primary: #a395e8;
+    --ifm-color-primary-dark: #a395e8;
+    --ifm-color-primary-darker: #a395e8;
+    --ifm-color-primary-darkest: #a395e8;
+    --ifm-color-primary-light: #a395e8;
+    --ifm-color-primary-lighter: #a395e8;
+    --ifm-color-primary-lightest: #a395e8;
+    --ifm-background-surface-color: #0f1621;
+    --ifm-background-color: #0b111d;
+    --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+  }
+}

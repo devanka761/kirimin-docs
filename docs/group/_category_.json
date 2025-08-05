@@ -1,0 +1,9 @@
+{
+  "label": "Grup",
+  "position": 5,
+  "link": {
+    "slug": "/group",
+    "type": "generated-index",
+    "description": "Konsep Grup pada Kirimin"
+  }
+}

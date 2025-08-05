@@ -1,0 +1,15 @@
+node_modules
+
+.prettierrc.mjs
+
+package.json
+package-lock.json
+
+README.md
+
+nodemon.json
+
+public
+dist
+ex
+build

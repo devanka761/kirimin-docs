@@ -1,0 +1,9 @@
+{
+  "label": "Login/Daftarkan User",
+  "position": 2,
+  "link": {
+    "slug": "/auth/sign-in",
+    "type": "generated-index",
+    "description": "Beberapa pilihan metode login di Kirimin"
+  }
+}

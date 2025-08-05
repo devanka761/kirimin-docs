@@ -1,0 +1,9 @@
+{
+  "label": "Akun",
+  "position": 3,
+  "link": {
+    "slug": "/account",
+    "type": "generated-index",
+    "description": "Konsep Account pada Kirimin"
+  }
+}
